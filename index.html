@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CourseIT Algoritmos</title>
+  </head>
+  <body>
+    <script>
+      const num = 100;
+
+      function fizzBuzz(num) {
+        let i = 0;
+
+        for (i; i <= num; i++) {
+          if (i % 3 == 0 && i % 5 == 0) {
+            console.log(`Fizzbuzz`);
+          } else if (i % 3 == 0) {
+            console.log(`Fizz`);
+          } else if (i % 5 == 0) {
+            console.log(`Buzz`);
+          } else {
+            console.log(i);
+          }
+        }
+      }
+
+      fizzBuzz(num);
+    </script>
+  </body>
+</html>
